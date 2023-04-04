@@ -1,55 +1,86 @@
 <!-- Aşağıdaki içerikleri CSS ile biçimlendirerek etiketleyin. -->
 <!DOCTYPE html>
 <html lang="tr">
+
 <head>
-<!-- Link your CSS stylesheet -->
-    
+  <!-- Link your CSS stylesheet -->
+  <link rel="stylesheet" href="/reset.css">
+  <link rel="stylesheet" href="/index.css">
 </head>
+
 <body>
-	
-        Gezinizi Planlayın
-		
-        Bilgi edinin
-		
-        Karşılaştırın
-	
-      <!-- "header_img.jpg" -->
-	  
-      Peri Bacaları Tanıtımı
-	  
-	  Gelin ve Nevşehir'in gizli güzelliklerini keşfedin.
-	 Sürekli açık. Ziyaret için rezervasyona gerek yoktur.
-	 
-	 
-	  
-      Sadece ülkemizin değil, dünyanın en gizemli yerlerinden biri olan Kapadokya’yı gezerken derin bir merak duyduğunuzu biliyoruz. ‘ Peri bacaları nasıl oluştu, insanlar peri bacalarının içlerini ustalıkla nasıl oydu, bu yeraltı şehirlerini kimler yaptı, o kadar insan yerin altında nasıl yaşadı ’ diye binlerce soru geliyor gezginin aklına. 
+  <header>
+    <nav>
+      <a href="">Gezinizi Planlayın</a>
+      <a href="">Bilgi edinin</a>
+      <a href="">Karşılaştırın</a>
+    </nav>
+    <!-- "header_img.jpg" -->
+    <div id="headerdiv">
+      <div id="headerresim">
+        <img src="/assets/header_img.jpg" alt="">
+      </div>
+      <div id="baslıkveacıklama">
+        <h1>Peri Bacaları Tanıtımı</h1>
+        <br>
+        <p> Gelin ve Nevşehir'in gizli güzelliklerini keşfedin.
+          Sürekli açık. Ziyaret için rezervasyona gerek yoktur.</p>
+      </div>
+    </div>
+  </header>
 
 
-     Peri bacaları oluşumunun bilimsel açıklaması olmasına rağmen mistik havasının da şöyle düşündürdüğü biliyoruz; ‘Kapadokya eskiden perilerin cenneti miydi, yoksa doğa bir mucize mi göstermek istedi!’
-     
-	 
-     <!--  "hot-air-balloon.svg" -->
-	
-	
-      Kapadokya denilince akla ilk gelen şeylerden birisi de şüphesiz sıcak hava balonları ile yapılan turlar. Her sabah gün doğumundan önce yüzlerce sıcak hava balonlarından oluşan konvoy ile Kapadokya’nın eşsiz güzellikteki manzaralarını havadan izlemek katılımcılar için gerçekten olağanüstü ve rüya gibi bir deneyim.
-		  
-	  
-     <!--  "atv.svg" -->
-	 
-	 
-      ATV turları, Kapadokya’yı gezmenin heyecan verici, eğlenceli ve farklı bir yoludur. Bölgenin eşsiz ve muhteşem vadileri, dünyanın en iyi ATV turlarından birini deneyimlemenize fırsat verir. ATV turlarının herkes için uygun bir aktivite olduğunu söylemeliyiz.
-	
-	
-	
-      <!-- "footer_img.png" -->
-      
-	
-	
-        Gezinizi Planlayın
-		
-        Bilgi edinin
-		
-        Karşılaştırın
-		
+  <section>
+
+    <div id="aciklamalar">
+      <p> Sadece ülkemizin değil, dünyanın en gizemli yerlerinden biri olan Kapadokya’yı gezerken derin bir merak
+        duyduğunuzu
+        biliyoruz. ‘ Peri bacaları nasıl oluştu, insanlar peri bacalarının içlerini ustalıkla nasıl oydu, bu yeraltı
+        şehirlerini kimler yaptı, o kadar insan yerin altında nasıl yaşadı ’ diye binlerce soru geliyor gezginin aklına.
+        <br><br>
+
+        Peri bacaları oluşumunun bilimsel açıklaması olmasına rağmen mistik havasının da şöyle düşündürdüğü biliyoruz;
+        ‘Kapadokya eskiden perilerin cenneti miydi, yoksa doğa bir mucize mi göstermek istedi!’
+      </p>
+    </div>
+
+    <div class="ortabolum">
+      <img class="kucukresimler" src="/assets/hot-air-balloon.svg" alt="">
+      <p> Kapadokya denilince akla ilk gelen şeylerden birisi de şüphesiz sıcak hava balonları ile yapılan turlar. Her
+        sabah gün
+        doğumundan önce yüzlerce sıcak hava balonlarından oluşan konvoy ile Kapadokya’nın eşsiz güzellikteki
+        manzaralarını
+        havadan izlemek katılımcılar için gerçekten <span class="kalin">olağanüstü ve rüya gibi bir deneyim.</span></p>
+
+
+    </div>
+
+
+
+    <div class="ortabolum">
+      <img class="kucukresimler" src="/assets/atv.svg" alt="">
+
+      <p> ATV turları, Kapadokya’yı gezmenin heyecan verici, eğlenceli ve farklı bir yoludur. Bölgenin eşsiz ve muhteşem
+        vadileri, <span class="kalin">dünyanın en iyi ATV turlarından birini</span> deneyimlemenize fırsat verir. ATV turlarının herkes için uygun
+        bir
+        aktivite olduğunu söylemeliyiz.</p>
+
+    </div>
+  </section>
+  <footer>
+    <div class="footer-container">
+<img class="footerimg" src="/assets/footer_img.jpg" alt="">
+<div class="deneme">
+  
+<nav class="navfooter">
+  <a href="">Gezinizi Planlayın</a>
+  <a href="">Bilgi edinin</a>
+  <a href="">Karşılaştırın</a>
+</nav>
+
+</div>
+</div>
+</footer>
 </body>
+
 </html>
